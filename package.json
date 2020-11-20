@@ -4,9 +4,9 @@
   "description": "",
   "scripts": {
     "start": "parcel index.html",
-		"build": "parcel build index.html --public-url '.'",
-		"predeploy": "rm -rf dist && parcel build index.html --public-url '.'",
-		"deploy": "gh-pages -d dist"
+    "build": "parcel build index.html --public-url '.'",
+    "predeploy": "rm -rf dist && parcel build index.html --public-url '.'",
+    "deploy": "gh-pages -d dist"
   },
   "license": "MIT",
   "dependencies": {
