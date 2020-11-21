@@ -12,7 +12,9 @@ export default () => (
           <Hero />
         </Col>
         <Col lg={5}>
+          <h1 className="text-center">LOGIN PAGE</h1>
           <Login />
+          <h1 className="text-center">Sign UP PAGE</h1>
           <Signup/>
         </Col>
       </Row>
