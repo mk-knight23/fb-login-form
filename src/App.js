@@ -2,6 +2,7 @@ import React from 'react';
 import Hero from './Hero';
 import Login from './Login';
 import { Container, Row, Col } from 'react-bootstrap';
+import Signup from './Signup';
 
 export default () => (
   <div className='app-container'>
@@ -12,6 +13,7 @@ export default () => (
         </Col>
         <Col lg={5}>
           <Login />
+          <Signup/>
         </Col>
       </Row>
     </Container>
